@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pwsh-analyzer"
+version = "0.1.0"
+description = ""
+authors = ["9rek1 <9rek199@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+black = "^21.11b1"
+flake8 = "^4.0.1"
+isort = "^5.10.1"
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
